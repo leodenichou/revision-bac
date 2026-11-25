@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Révisions Bac 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="tabs" aria-label="Navigation">
+  <div class="wrap">
+    <a class="brand" href="#accueil">Bac 2027</a>
+    <div class="navlinks" id="navlinks"></div>
+  </div>
+</nav>
+
+<main class="wrap" id="app"></main>
+
+<footer><div class="wrap">Site de révision pour le bac général 2027 (Terminale). Les fiches, exercices et sujets ont été rédigés pour l'entraînement : ce ne sont pas des sujets officiels. Vérifie toujours avec tes profs ce qu'ils attendent. Ta progression reste dans ton navigateur.</div></footer>
+
+<!-- Les matières s'ajoutent dans MATIERES depuis les fichiers du dossier data/ -->
+<script>const MATIERES = [];</script>
+<script src="data/outils.js"></script>
+<script src="data/ses.js"></script>
+<script src="data/philo.js"></script>
+<script src="data/llce.js"></script>
+<script src="data/maths.js"></script>
+<script src="data/hg.js"></script>
+<script src="data/es.js"></script>
+<script src="data/emc.js"></script>
+<script src="data/langues.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
